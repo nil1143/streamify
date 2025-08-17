@@ -8,7 +8,22 @@ import CallPage from "./pages/CallPage";
 import ChatPage from "./pages/ChatPage";
 import OnboardingPage from "./pages/OnboardingPage";
 
+import { Toaster } from "react-hot-toast";
+import { useEffect, useState } from "react";
+import { useQuery } from "@tanstack/react-query";
+import { axiosInstance } from "./lib/axios.js";
+
 const App = () => {
+  const { data, isLoading, error } = useQuery({
+    queryKey: ["todos"],
+
+    queryFn: async () => {
+      const res = await axiosInstance.get("/auth/me");
+      return res.data;
+    },
+  });
+  console.log(data);
+
   return (
     <div className="h-screen" data-theme="coffee">
       <Routes>
@@ -20,6 +35,8 @@ const App = () => {
         <Route path="/chat" element={<ChatPage />} />
         <Route path="/onboarding" element={<OnboardingPage />} />
       </Routes>
+
+      <Toaster />
     </div>
   );
 };
