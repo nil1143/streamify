@@ -12,7 +12,7 @@ const SignUpPage = () => {
     password: "",
   });
 
-  const { isPending, error, mutate: signupMutation } = useSignUp();
+  const { isPending, error, signupMutation } = useSignUp();
 
   const handleSignup = (e) => {
     e.preventDefault();

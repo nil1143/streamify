@@ -38,6 +38,16 @@ const Sidebar = () => {
           <BellIcon className="size-5 text-base-content opacity-70" />
           <span>Notifications</span>
         </Link>
+
+        <Link
+          to="/friends"
+          className={`btn btn-ghost justify-start w-full gap-3 px-3 normal-case ${
+            currentPath === "/friends" ? "btn-active" : ""
+          }`}
+        >
+          <UsersIcon className="size-5 text-base-content opacity-70" />
+          <span>Friends</span>
+        </Link>
       </nav>
 
       {/* USER PROFILE SECTION */}

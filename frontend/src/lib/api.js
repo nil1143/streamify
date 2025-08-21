@@ -1,6 +1,7 @@
 import { axiosInstance } from "./axios";
 
 export const signup = async (signupData) => {
+  console.log("Calling signup API with data:", signupData);
   const response = await axiosInstance.post("/auth/signup", signupData);
   return response.data;
 };
