@@ -5,27 +5,27 @@ Live demo: https://streamify-bmad.onrender.com/
 Streamify is a MERN‑stack language‑exchange web application that helps learners discover, connect, and practice with language partners. Sign up and complete a short onboarding profile, browse recommended matches, send and manage friend requests, chat in real time via Stream Chat, and create shareable video‑call links for practice sessions.
 
 
-## 📌 Table of contents
-- [📃 About](#about)
+## Table of contents 📌
+- [About](#about)
     - [Summary](#summary)
     - [Key Features](#key-featueres)
    - [Tech Stack](#tech-stack)
-- [🔅 Design](#design)
+- [Design](#design)
     - [Themes](#themes)
     - [Fonts & UI](#fonts-&-ui)
     - [Responsive view](#responsive-view)
-- [💁 User Stories](#user-stories)
-- [📷 Screenshoots](#screenshoots)
+- [User Stories](#user-stories)
+- [Screenshoots](#screenshoots)
     - [Desktop](#desktop)
     - [Mobile](#mobile)
-- [🔧 Deployment](#deployment)
+- [Deployment](#deployment)
     - [.env Setup](#dotenv-setup)
     - [Run the Backend](#run-the-backend)
     - [Run the Frontend](#run-the-frontend)
-- [📬 Contact](#contact)
+- [Contact](#contact)
 
 
-## 📃 About
+## About 📃
 
 #### Summary
  React app (Vite) built on the MERN stack with a production-ready backend. Frontend focuses: discover language partners, friend-request flow, real-time chat (Stream Chat), theming, and responsive UI.
@@ -74,7 +74,7 @@ Streamify is a MERN‑stack language‑exchange web application that helps learn
 
 
 
-## 🔅 Design
+## Design 🔅
 
 #### Themes
 - Multiple theme presets selectable via the ThemeSelector.
@@ -92,7 +92,7 @@ Streamify is a MERN‑stack language‑exchange web application that helps learn
 
 ---
 
-## 💁 User stories
+## User stories 💁
 
 | As a... | I want... | So that... |
 |---|---|---|
@@ -107,7 +107,7 @@ Streamify is a MERN‑stack language‑exchange web application that helps learn
 
 ---
 
-## 📷 Screenshots
+## Screenshots 📷
 
 ### Desktop
 - #### Home / Discovery  
@@ -138,8 +138,8 @@ Streamify is a MERN‑stack language‑exchange web application that helps learn
 
 ---
 
-## 🔧 Deployment
-### 🧪 .env Setup
+## Deployment 🔧
+### .env Setup 🧪
 
 #### Backend (`/backend`)
 
@@ -160,7 +160,7 @@ VITE_STREAM_API_KEY=your_stream_api_key
 
 ---
 
-### 🔧 Run the Backend
+### Run the Backend 🔧
 
 ```bash
 cd backend
@@ -168,7 +168,7 @@ npm install
 npm run dev
 ```
 
-### 💻 Run the Frontend
+### Run the Frontend 💻
 
 ```bash
 cd frontend
