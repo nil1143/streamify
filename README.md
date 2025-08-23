@@ -6,16 +6,18 @@ Streamify is a MERN‑stack language‑exchange web application that helps learn
 
 
 ## 📌 Table of contents
-- [📃About](#about)
+- [📃 About](#about)
     - [Summary](#summary)
     - [Key Features](#key-featueres)
    - [Tech Stack](#tech-stack)
-- [🔅Design](#design)
+- [🔅 Design](#design)
     - [Themes](#themes)
     - [Fonts & UI](#fonts-&-ui)
     - [Responsive view](#responsive-view)
-- [💁User Stories](#user-stories)
-- [📷Screenshoots](#screenshoots)
+- [💁 User Stories](#user-stories)
+- [📷 Screenshoots](#screenshoots)
+    - [Desktop](#desktop)
+    - [Mobile](#mobile)
 - [🔧 Deployment](#deployment)
     - [.env Setup](#dotenv-setup)
     - [Run the Backend](#run-the-backend)
@@ -107,6 +109,7 @@ Streamify is a MERN‑stack language‑exchange web application that helps learn
 
 ## 📷 Screenshots
 
+### Desktop
 - #### Home / Discovery  
   ![Homepage](/frontend/public/readme/homepage2.png)
 
@@ -122,6 +125,16 @@ Streamify is a MERN‑stack language‑exchange web application that helps learn
 
 - #### Theme examples  
   ![Theme 1](/frontend/public/readme/theme1.png) ![Theme 2](/frontend/public/readme/theme2.png)
+
+### Mobile
+- #### Signup
+  ![Mobile](/frontend/public/readme/mobile.png)
+
+- #### Homepage
+  ![Mobile2](/frontend/public/readme/mobile-2.png)
+
+- #### Notifications
+  ![Mobile3](/frontend/public/readme/mobile-3.png)
 
 ---
 
